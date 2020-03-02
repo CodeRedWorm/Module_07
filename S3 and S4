@@ -1,0 +1,18 @@
+> s3 <- list(make = "Honda", model = "Civic", cylinder = 4)
+> s3
+$make
+[1] "Honda"
+$model
+[1] "Civic"
+$cylinder
+[1] 4
+
+> s4 <- new("car", make = "Honda", model = "Civic", cylinder = 4)
+> s4
+An object of class "car"
+Slot "make":
+[1] "Honda"
+Slot "model":
+[1] Civic
+Slot "cylinder":
+[1] 4
